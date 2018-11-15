@@ -7,7 +7,11 @@ $(document).on("pagecreate","#pageone",function(){
 
 function submitText() {
 	var text = $('#textinput').val();
+<<<<<<< HEAD
 	alert("Finger guns");
+=======
+	alert(text);
+>>>>>>> e3957b8714235e39cce442995ef93204fc38878c
 }
 
 function storeValue(key, value) {
